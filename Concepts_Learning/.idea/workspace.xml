@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Added files">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/com/sanjai/loops/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/com/sanjai/methods/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/com/sanjai/switchstatement/EnhancedSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/com/sanjai/switchstatement/Switch.java" afterDir="false" />
+    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Added day3 Learnings">
+      <change afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/concept/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/Largest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -46,19 +48,19 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/SANJAI/Java_Preparation/Concepts_Learning&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/SANJAI/Java_Preparation/Concepts_Learning/Core/src/Main.java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/SANJAI/Java_Preparation/Concepts_Learning/Arrays/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Simple">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.loops.Calculator" />
-      <module name="Core" />
+  <component name="RunManager" selected="Application.SecondLargest">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.concept.Array" />
+      <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.loops.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.switchstatement.EnhancedSwitch" />
-      <module name="Core" />
+    <configuration name="Largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.Largest" />
+      <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.switchstatement.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="For_Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.loops.For_Loop" />
-      <module name="Core" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.SecondLargest" />
+      <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.loops.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.switchstatement.Switch" />
-      <module name="Core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanjai.switchstatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.Largest" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Simple" />
-        <item itemvalue="Application.EnhancedSwitch" />
-        <item itemvalue="Application.Switch" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.For_Loop" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711997657317</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added day3 Learnings">
+      <option name="closed" value="true" />
+      <created>1712163709257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712163709257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files" />
+    <MESSAGE value="Added day3 Learnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added day3 Learnings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
