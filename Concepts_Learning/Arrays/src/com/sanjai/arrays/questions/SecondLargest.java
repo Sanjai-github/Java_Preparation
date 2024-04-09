@@ -13,13 +13,53 @@ public class SecondLargest {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
-        int Slar = BruteForce(arr);
-        System.out.println(Slar);
+        int ans = optimal(arr);
+        System.out.println(ans);
     }
     static int BruteForce(int[]arr){
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
-
-        return arr[arr.length - 2];
+        int lar = arr.length-1;
+        int Seclar = arr.length-2;
+        for (int i = lar; i > 0 ; i--) {
+            if(arr[Seclar] == arr[Seclar-1]){
+                Seclar = Seclar-1;
+            }
+            else {
+            break;
+            }
+        }
+        return arr[Seclar];
+    }
+    static int Better(int []arr){
+        int n = arr.length;
+        int largest = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] >= largest) {
+                largest = arr[i];
+            }
+        }
+        int secLar = -1;
+        for (int i = 0; i < n ; i++) {
+            if(arr[i] != largest && arr[i] > secLar){
+                secLar = arr[i];
+            }
+        }
+        return secLar;
+    }
+    static int optimal(int []arr){
+         int n = arr.length;
+         int lar = 0;
+         int Seclar = -1;
+        for (int i = 0; i < n; i++) {
+            if(arr[i] > lar){
+                Seclar = lar;
+                lar =arr[i];
+            }
+            else if(arr[i] < lar && arr[i] > Seclar){
+                Seclar = arr[i];
+            }
+        }
+        return Seclar;
     }
 }
