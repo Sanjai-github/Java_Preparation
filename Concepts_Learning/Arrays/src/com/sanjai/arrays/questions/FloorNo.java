@@ -1,8 +1,8 @@
-package com.sanjai.arrays.searching;
+package com.sanjai.arrays.questions;
 
 import java.util.Scanner;
 
-public class Binary {
+public class FloorNo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the Array size : ");
@@ -12,26 +12,25 @@ public class Binary {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
-        System.out.print("Enter the target element : ");
+        System.out.print("Enter the target element to get it's floor no : ");
         int target = in.nextInt();
-        int ans = BinSearch(arr,target);
+        int ans = floorno(arr,target);
         System.out.println(ans);
     }
-    static int BinSearch(int []arr , int target){
+
+    static int floorno(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
-        while (start <= end){
-            int mid = start+(end - start)/2;
+        while(start <= end){
+            int mid = start+(end-start)/2;
             if(target == arr[mid]){
-                return mid;
-            }else if (target > mid) {
+                return arr[mid];
+            } else if (target < arr[mid]) {
+                end = mid - 1;
+            } else {
                 start = mid + 1;
             }
-            else{
-                end = mid - 1;
-            }
-
         }
-        return -1;
+        return arr[end];
     }
 }
