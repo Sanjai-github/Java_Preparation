@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Practised Array questions">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/concept/MultiDimArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/CeilingNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FloorNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/OrderAgnosticBS.java" afterDir="false" />
+    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Practised Array questions day2 :)">
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/EvenDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FirstAndLastPositionOfElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/RichestCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/SmallestLetterGreaterThanTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/searching/Linear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +51,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Binary">
-    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.searching.Binary" />
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CeilingNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.CeilingNo" />
+  <component name="RunManager" selected="Application.FirstAndLastPositionOfElement">
+    <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.EvenDigits" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloorNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.FloorNo" />
+    <configuration name="FirstAndLastPositionOfElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.FirstAndLastPositionOfElement" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.searching.Linear" />
+    <configuration name="RichestCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.RichestCustomer" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.searching.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.searching.OrderAgnosticBS" />
+    <configuration name="SmallestLetterGreaterThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.SmallestLetterGreaterThanTarget" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.searching.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Twosum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.Twosum" />
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Binary" />
-        <item itemvalue="Application.OrderAgnosticBS" />
-        <item itemvalue="Application.FloorNo" />
-        <item itemvalue="Application.CeilingNo" />
-        <item itemvalue="Application.Linear" />
+        <item itemvalue="Application.FirstAndLastPositionOfElement" />
+        <item itemvalue="Application.SmallestLetterGreaterThanTarget" />
+        <item itemvalue="Application.RichestCustomer" />
+        <item itemvalue="Application.EvenDigits" />
+        <item itemvalue="Application.Twosum" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712677502848</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Practised Array questions day2 :)">
+      <option name="closed" value="true" />
+      <created>1712950070942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712950070942</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Practised Array questions day2 :)">
+      <option name="closed" value="true" />
+      <created>1712950165963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712950165963</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +211,8 @@
     <MESSAGE value="Added day3 Learnings" />
     <MESSAGE value="Added Array Learnings" />
     <MESSAGE value="Practised Array questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised Array questions" />
+    <MESSAGE value="Practised Array questions day2 :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised Array questions day2 :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,11 +221,6 @@
           <url>file://$PROJECT_DIR$/Basics/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/concept/MultiDimArray.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
