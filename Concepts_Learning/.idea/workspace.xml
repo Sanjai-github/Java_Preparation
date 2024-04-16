@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Practised Array questions day2 :)">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/EvenDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FirstAndLastPositionOfElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/RichestCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/SmallestLetterGreaterThanTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712950165963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Practised Array questions day2 :)">
+      <option name="closed" value="true" />
+      <created>1713025254290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713025254290</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Practised Array questions day2 :)">
+      <option name="closed" value="true" />
+      <created>1713101832982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713101832982</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
