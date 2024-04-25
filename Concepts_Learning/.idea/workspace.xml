@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Added Practiced Questions">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/ArrayShuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/KidsWithGreatestNumberCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/NumberGoodPairs.java" afterDir="false" />
+    <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Added Oops learning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,30 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SANJAI/Java_Preparation/Concepts_Learning&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/SANJAI/Java_Preparation/Concepts_Learning/Arrays/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "D:/SANJAI/Java_Preparation/Concepts_Learning/OOPS",
+    "onboarding.tips.debug.path": "D:/SANJAI/Java_Preparation/Concepts_Learning/Arrays/OOPS/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.NumberGoodPairs">
+}]]></component>
+  <component name="RunManager" selected="Application.OopIntro">
     <configuration name="ArrayShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.ArrayShuffle" />
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions_Leetcode.ArrayShuffle" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions_Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +69,11 @@
       </method>
     </configuration>
     <configuration name="FindAllDuplicatesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.FindAllDuplicatesInArray" />
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions_Leetcode.FindAllDuplicatesInArray" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions_Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="KidsWithGreatestNumberCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.KidsWithGreatestNumberCandies" />
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions_Leetcode.KidsWithGreatestNumberCandies" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions_Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="NumberGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.NumberGoodPairs" />
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions_Leetcode.NumberGoodPairs" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions_Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.SetMismatch" />
+    <configuration name="OopIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.OOP.Introduction.OopIntro" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
+          <option name="PATTERN" value="com.sanjai.OOP.Introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OopIntro" />
         <item itemvalue="Application.NumberGoodPairs" />
         <item itemvalue="Application.KidsWithGreatestNumberCandies" />
         <item itemvalue="Application.ArrayShuffle" />
         <item itemvalue="Application.FindAllDuplicatesInArray" />
-        <item itemvalue="Application.SetMismatch" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713798785757</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Practiced Questions">
+      <option name="closed" value="true" />
+      <created>1714035858326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714035858326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Oops learning">
+      <option name="closed" value="true" />
+      <created>1714059402324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714059402324</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +300,8 @@
     <MESSAGE value="Practised Array questions day2 :)" />
     <MESSAGE value="Added Bubble sort" />
     <MESSAGE value="Added Practiced Questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Practiced Questions" />
+    <MESSAGE value="Added Oops learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Oops learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,10 +311,20 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Core/OOP/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Arrays/OOPS/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FirstAndLastPositionOfElement.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/FirstAndLastPositionOfElement.java</url>
           <line>23</line>
-          <properties class="com.sanjai.arrays.questions.FirstAndLastPositionOfElement" method="search">
+          <properties class="com.sanjai.arrays.questions_Leetcode.FirstAndLastPositionOfElement" method="search">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -316,63 +340,63 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/MissingNo.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/MissingNo.java</url>
           <line>8</line>
-          <properties class="com.sanjai.arrays.questions.MissingNo" method="missingNumber">
+          <properties class="com.sanjai.arrays.questions_Leetcode.MissingNo" method="missingNumber">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FindAllNumbersDisappearedInArray.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/FindAllNumbersDisappearedInArray.java</url>
           <line>12</line>
-          <properties class="com.sanjai.arrays.questions.FindAllNumbersDisappearedInArray" method="findDisappearedNumbers">
+          <properties class="com.sanjai.arrays.questions_Leetcode.FindAllNumbersDisappearedInArray" method="findDisappearedNumbers">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/FindAllDuplicatesInArray.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/FindAllDuplicatesInArray.java</url>
           <line>11</line>
-          <properties class="com.sanjai.arrays.questions.FindAllDuplicatesInArray" method="findDuplicates">
+          <properties class="com.sanjai.arrays.questions_Leetcode.FindAllDuplicatesInArray" method="findDuplicates">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/SetMismatch.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/SetMismatch.java</url>
           <line>11</line>
-          <properties class="com.sanjai.arrays.questions.SetMismatch" method="findErrorNums">
+          <properties class="com.sanjai.arrays.questions_Leetcode.SetMismatch" method="findErrorNums">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/ArrayShuffle.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/ArrayShuffle.java</url>
           <line>10</line>
-          <properties class="com.sanjai.arrays.questions.ArrayShuffle" method="shuffle">
+          <properties class="com.sanjai.arrays.questions_Leetcode.ArrayShuffle" method="shuffle">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/KidsWithGreatestNumberCandies.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/KidsWithGreatestNumberCandies.java</url>
           <line>12</line>
-          <properties class="com.sanjai.arrays.questions.KidsWithGreatestNumberCandies" method="kidsWithCandies">
+          <properties class="com.sanjai.arrays.questions_Leetcode.KidsWithGreatestNumberCandies" method="kidsWithCandies">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/NumberGoodPairs.java</url>
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions_Leetcode/NumberGoodPairs.java</url>
           <line>8</line>
-          <properties class="com.sanjai.arrays.questions.NumberGoodPairs" method="numIdenticalPairs">
+          <properties class="com.sanjai.arrays.questions_Leetcode.NumberGoodPairs" method="numIdenticalPairs">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
