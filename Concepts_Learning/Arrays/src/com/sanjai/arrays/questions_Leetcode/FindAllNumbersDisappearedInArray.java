@@ -1,7 +1,6 @@
-package com.sanjai.arrays.questions;
+package com.sanjai.arrays.questions_Leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FindAllNumbersDisappearedInArray {

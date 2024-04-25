@@ -1,4 +1,4 @@
-package com.sanjai.arrays.questions;
+package com.sanjai.arrays.questions_Leetcode;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.sanjai.arrays.questions;
+package com.sanjai.arrays.questions_Leetcode;
 
 public class EvenDigits {
     // nums = [12,345,2,6,7896]

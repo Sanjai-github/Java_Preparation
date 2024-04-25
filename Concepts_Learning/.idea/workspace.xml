@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe372ed-e8cf-43dd-b25c-75879a50b396" name="Changes" comment="Added Practiced Questions">
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/ArrayShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/KidsWithGreatestNumberCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/NumberGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2eVhjaRXqEUlXTvpd8v0GdxgVCf" />
@@ -48,13 +57,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SetMismatch">
-    <configuration name="Cyclic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.sorting.Cyclic" />
+  <component name="RunManager" selected="Application.NumberGoodPairs">
+    <configuration name="ArrayShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.ArrayShuffle" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanjai.arrays.sorting.*" />
+          <option name="PATTERN" value="com.sanjai.arrays.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.FindDuplicateNumber" />
+    <configuration name="KidsWithGreatestNumberCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.KidsWithGreatestNumberCandies" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.MissingNo" />
+    <configuration name="NumberGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanjai.arrays.questions.NumberGoodPairs" />
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SetMismatch" />
-        <item itemvalue="Application.MissingNo" />
+        <item itemvalue="Application.NumberGoodPairs" />
+        <item itemvalue="Application.KidsWithGreatestNumberCandies" />
+        <item itemvalue="Application.ArrayShuffle" />
         <item itemvalue="Application.FindAllDuplicatesInArray" />
-        <item itemvalue="Application.Cyclic" />
-        <item itemvalue="Application.FindDuplicateNumber" />
+        <item itemvalue="Application.SetMismatch" />
       </list>
     </recent_temporary>
   </component>
@@ -221,15 +230,50 @@
       <option name="project" value="LOCAL" />
       <updated>1713798091263</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Practiced Questions">
+      <option name="closed" value="true" />
+      <created>1713798785757</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713798785757</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -306,6 +350,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/ArrayShuffle.java</url>
+          <line>10</line>
+          <properties class="com.sanjai.arrays.questions.ArrayShuffle" method="shuffle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/KidsWithGreatestNumberCandies.java</url>
+          <line>12</line>
+          <properties class="com.sanjai.arrays.questions.KidsWithGreatestNumberCandies" method="kidsWithCandies">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Arrays/src/com/sanjai/arrays/questions/NumberGoodPairs.java</url>
+          <line>8</line>
+          <properties class="com.sanjai.arrays.questions.NumberGoodPairs" method="numIdenticalPairs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
