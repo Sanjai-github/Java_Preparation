@@ -1,4 +1,4 @@
-package com.sanjai.OOP.Introduction;
+package com.sanjai.Introduction;
 
 public class OopIntro {
     // class is the named group of properties and function
