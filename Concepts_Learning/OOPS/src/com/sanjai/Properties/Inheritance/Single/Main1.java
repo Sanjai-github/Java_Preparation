@@ -20,7 +20,7 @@ public class Main1 {
 
         System.out.println();
 
-        BoxWeight obj2 = new BoxWeight(15,23,48,99);
+        BoxWeight obj2 = new BoxWeight(15, 23, 48, 99);
         System.out.println(obj2.Weight);
         System.out.println(obj2.h);
         System.out.println(obj2.l);
