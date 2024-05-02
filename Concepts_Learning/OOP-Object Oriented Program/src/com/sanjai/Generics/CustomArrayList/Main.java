@@ -5,7 +5,7 @@ public class Main {
     /*
      In this Custom Arraylist the list is created with only one datatype
      this is the drawback for the list class
-     to overcome this generics are used
+     to overcome these generics are used
      */
     public static void main (String[] args){
         CustomArrayList list= new CustomArrayList();

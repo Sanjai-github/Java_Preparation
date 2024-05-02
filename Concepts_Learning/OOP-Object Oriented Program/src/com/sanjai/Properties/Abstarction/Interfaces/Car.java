@@ -1,6 +1,6 @@
 package com.sanjai.Properties.Abstarction.Interfaces;
 
-public class Car implements Engine , Brake{
+public class Car implements Engine , Brake , Media{
     @Override
     public void start() {
         System.out.println("Engine Started normally");
